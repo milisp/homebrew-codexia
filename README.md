@@ -14,3 +14,11 @@ Homebrew formulae and casks for Codexia.
 brew tap milisp/codexia
 brew install --cask codexia
 ```
+
+## Macos warning
+
+after install, if macos warning, run the below command too.
+
+```sh
+xattr -rd com.apple.quarantine /Applications/Codexia.app
+```
