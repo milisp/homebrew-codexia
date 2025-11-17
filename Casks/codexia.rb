@@ -10,7 +10,7 @@ cask "codexia" do
   on_arm do
     sha256 "6d0594e341e66c70bff090770a10be3f189b1eca36d6be47ce200bbe4677d695"
 
-    url "https://github.com/codexia-team/codexia/releases/download/v#{version}/codexia_#{version}_x64.dmg"
+    url "https://github.com/codexia-team/codexia/releases/download/v#{version}/codexia_#{version}_aarch64.dmg"
   end
 
   name "Codexia"
