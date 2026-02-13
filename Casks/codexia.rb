@@ -1,5 +1,5 @@
 cask "codexia" do
-  version "0.23.0"
+  version "0.23.1"
 
   on_intel do
     sha256 "8329ae43efca4588baed0b67d0b8ef0cb8d55f30a7fed1c6c609e5cdcce61514"
