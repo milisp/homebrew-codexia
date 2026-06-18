@@ -1,14 +1,14 @@
 cask "codexia" do
-  version "0.35.0"
+  version "0.35.1"
 
   on_arm do
-    sha256 "eefea40dfc0e4e7870ae266798815db009052b3a1f06feba515181068325a9c2"
+    sha256 "0ecdc316690c59374424ea6b4d9c9af4785e514445aaeee061f879c8ca151d74"
 
     url "https://github.com/milisp/codexia/releases/download/v#{version}/codexia_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "3e98d200390499c1f9ec6f603337f100b780e8eeedc872795fe7beea09a95adf"
+    sha256 "edbc55b160ccc685cba4b0a440669f2b700bcb6a1bb2927f8258066eb0f61c8d"
 
     url "https://github.com/milisp/codexia/releases/download/v#{version}/codexia_#{version}_x64.dmg"
   end
