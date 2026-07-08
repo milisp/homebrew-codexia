@@ -18,6 +18,11 @@ cask "codexia" do
 
   depends_on :macos
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   app "Codexia.app"
 
   zap trash: [
